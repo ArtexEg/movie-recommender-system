@@ -1,7 +1,5 @@
 # Movie Recommender System (Neural Network)
 
----
-
 ## 🇬🇧 English
 
 This is a neural network-based movie recommendation system project.
@@ -13,16 +11,12 @@ The model predicts user ratings for movies using collaborative filtering with em
 - trained on explicit rating data
 - predicts rating for a given user-movie pair
 
----
-
 ### Model Architecture
 - User embedding layer
 - Movie embedding layer
 - Concatenation of embeddings
 - Fully connected dense layers
 - Output layer for rating prediction (regression)
-
----
 
 ### Dataset
 
@@ -34,16 +28,12 @@ Files used:
 - movies.csv
 - ratings.csv
 
----
-
 ### Training Process
 - Data preprocessing and ID mapping
 - Train/test split (80/20)
 - Loss function: MSE
 - Optimizer: Adam
 - Training epochs: 5
-
----
 
 ### Evaluation Metrics
 
@@ -54,8 +44,6 @@ Model performance on test data:
 - MAE: 0.6836  
 - MSE: 0.7890  
 
----
-
 ### Features
 - Neural collaborative filtering model
 - Embedding-based recommendation system
@@ -64,8 +52,6 @@ Model performance on test data:
 - ROC curve analysis (binary threshold ≥ 4)
 - Model saving for inference
 
----
-
 ### Technologies Used
 - Python
 - TensorFlow / Keras
@@ -73,8 +59,6 @@ Model performance on test data:
 - NumPy
 - Scikit-learn
 - Matplotlib
-
----
 
 ### Output
 The model predicts user preferences and estimates movie ratings based on historical interaction data.
@@ -92,16 +76,12 @@ The model predicts user preferences and estimates movie ratings based on histori
 - обучается на данных оценок
 - предсказывает рейтинг для пары пользователь–фильм
 
----
-
 ### Архитектура модели
 - эмбеддинги пользователей
 - эмбеддинги фильмов
 - объединение эмбеддингов
 - полносвязные слои
 - выходной слой для предсказания рейтинга
-
----
 
 ### Данные
 
@@ -113,8 +93,6 @@ The model predicts user preferences and estimates movie ratings based on histori
 - movies.csv
 - ratings.csv
 
----
-
 ### Процесс обучения
 - предобработка данных и маппинг ID
 - разделение train/test (80/20)
@@ -122,7 +100,6 @@ The model predicts user preferences and estimates movie ratings based on histori
 - оптимизатор Adam
 - 5 эпох обучения
 
----
 
 ### Метрики качества
 
@@ -133,8 +110,6 @@ The model predicts user preferences and estimates movie ratings based on histori
 - MAE: 0.6836  
 - MSE: 0.7890  
 
----
-
 ### Возможности
 - модель коллаборативной фильтрации
 - рекомендации на основе эмбеддингов
@@ -143,8 +118,6 @@ The model predicts user preferences and estimates movie ratings based on histori
 - ROC-кривая
 - сохранение модели для использования
 
----
-
 ### Технологии
 - Python
 - TensorFlow / Keras
@@ -152,8 +125,6 @@ The model predicts user preferences and estimates movie ratings based on histori
 - NumPy
 - Scikit-learn
 - Matplotlib
-
----
 
 ### Результат
 Модель способна предсказывать предпочтения пользователей и оценивать фильмы на основе исторических данных взаимодействий.
